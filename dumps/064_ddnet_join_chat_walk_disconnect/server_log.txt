@@ -1,0 +1,25 @@
+2025-10-04 11:03:13 I engine: running on unix-linux-amd64
+2025-10-04 11:03:13 I engine: arch is little endian
+2025-10-04 11:03:13 I engine: operating system version: Linux 6.12.48+deb13-amd64 (x86_64, #1 SMP PREEMPT_DYNAMIC Debian 6.12.48-1 (2025-09-20)); "Debian GNU/Linux 13 (trixie)"
+2025-10-04 11:03:13 I storage: added path '$CURRENTDIR' ('/home/chiller/Downloads/DDNet-19.4-linux_x86_64')
+2025-10-04 11:03:13 I storage: added path '$DATADIR' ('data')
+2025-10-04 11:03:13 I console: executing 'autoexec_server.cfg'
+2025-10-04 11:03:13 I server: added maps to votes
+2025-10-04 11:03:13 I console: failed to open 'myServerconfig.cfg'
+2025-10-04 11:03:13 I server: using port 8303
+2025-10-04 11:03:13 I http: libcurl version 8.14.1 (compiled = 8.8.0)
+2025-10-04 11:03:13 I server: server name is 'My DDNet server'
+2025-10-04 11:03:13 I server: version 19.4 on linux amd64
+2025-10-04 11:03:13 I server: git revision hash: 9619822fb33448a127efdddfaa6c859466b6855b
+2025-10-04 11:03:13 I server: Loaded 0 announcements
+2025-10-04 11:03:13 I server: Found 19 maps for maplist
+2025-10-04 11:03:13 I server: +-------------------------+
+2025-10-04 11:03:13 I server: | rcon password: 'q5tdL5' |
+2025-10-04 11:03:13 I server: +-------------------------+
+2025-10-04 11:03:41 I server: player has entered the game. ClientId=0 addr=<{127.0.0.1:35845}> sixup=0
+2025-10-04 11:03:41 I chat: *** 'nameless tee' entered and joined the game
+2025-10-04 11:03:41 I ddnet: cid=0 version=19040
+2025-10-04 11:03:44 I chat: 0:-2:nameless tee: hello
+2025-10-04 11:03:51 I game: kill killer='0:nameless tee' victim='0:nameless tee' weapon=-3 special=0
+2025-10-04 11:03:51 I chat: *** 'nameless tee' has left the game
+2025-10-04 11:03:51 I game: leave player='0:nameless tee'
