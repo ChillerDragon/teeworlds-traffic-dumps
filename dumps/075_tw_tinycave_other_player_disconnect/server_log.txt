@@ -1,0 +1,58 @@
+[2025-10-04 17:00:57][engine]: running on unix-linux-amd64
+[2025-10-04 17:00:57][engine]: arch is little endian
+[2025-10-04 17:00:57][storage]: added path '$CURRENTDIR' ('/tmp/pcap/teeworlds-0.7.5-linux_x86_64')
+[2025-10-04 17:00:57][storage]: added path '$DATADIR' ('data')
+[2025-10-04 17:00:57][console]: failed to open 'autoexec.cfg'
+[2025-10-04 17:00:57][server]: starting...
+[2025-10-04 17:00:57][datafile]: loading. filename='maps/tinycave.map'
+[2025-10-04 17:00:57][datafile]: allocsize=1084
+[2025-10-04 17:00:57][datafile]: readsize=852
+[2025-10-04 17:00:57][datafile]: swaplen=872
+[2025-10-04 17:00:57][datafile]: item_size=656
+[2025-10-04 17:00:57][datafile]: loading done. datafile='maps/tinycave.map'
+[2025-10-04 17:00:57][server]: maps/tinycave.map sha256 is b00a78c7d3922092537d165f9897bd40846a46934c209bf6748f718bf30b5fdd
+[2025-10-04 17:00:57][server]: maps/tinycave.map crc is ff4d6acb
+[2025-10-04 17:00:57][server]: server name is 'unnamed server'
+[2025-10-04 17:00:57][datafile]: loading data index=3 size=17 uncompressed=400
+[2025-10-04 17:00:57][datafile]: loading data index=4 size=30 uncompressed=400
+[2025-10-04 17:00:57][datafile]: loading data index=5 size=56 uncompressed=400
+[2025-10-04 17:00:57][server]: version 0.7 802f1be60a05665f
+[2025-10-04 17:00:57][server]: +-------------------------+
+[2025-10-04 17:00:57][server]: | rcon password: 'j7tHXm' |
+[2025-10-04 17:00:57][server]: +-------------------------+
+[2025-10-04 17:00:57][engine/mastersrv]: refreshing master server addresses
+[2025-10-04 17:00:57][register]: refreshing ip addresses
+[2025-10-04 17:00:57][engine/mastersrv]: saving addresses
+[2025-10-04 17:00:57][register]: fetching server counts
+[2025-10-04 17:01:00][register]: chose 'master1.teeworlds.com' as master, sending heartbeats
+[2025-10-04 17:01:14][server]: player is ready. ClientID=0 addr=127.0.0.1:53179
+[2025-10-04 17:01:14][server]: player has entered the game. ClientID=0 addr=127.0.0.1:53179
+[2025-10-04 17:01:14][game]: team_join player='0:foo' team=0
+[2025-10-04 17:01:52][server]: player is ready. ClientID=1 addr=127.0.0.1:56023
+[2025-10-04 17:01:52][game]: start match type='DM' teamplay='0'
+[2025-10-04 17:01:52][server]: player has entered the game. ClientID=1 addr=127.0.0.1:56023
+[2025-10-04 17:01:52][game]: team_join player='1:bar' team=0
+[2025-10-04 17:01:54][server]: client dropped. cid=1 addr=127.0.0.1:56023 reason=''
+[2025-10-04 17:01:54][game]: kill killer='1:0:bar' victim='1:0:bar' weapon=-3 special=0
+[2025-10-04 17:01:54][game]: leave player='1:bar'
+[2025-10-04 17:02:00][register]: WARNING: Master server is not responding, switching master
+[2025-10-04 17:02:00][engine/mastersrv]: refreshing master server addresses
+[2025-10-04 17:02:00][register]: refreshing ip addresses
+[2025-10-04 17:02:00][engine/mastersrv]: saving addresses
+[2025-10-04 17:02:00][register]: fetching server counts
+[2025-10-04 17:02:03][register]: chose 'master1.teeworlds.com' as master, sending heartbeats
+[2025-10-04 17:03:03][register]: WARNING: Master server is not responding, switching master
+[2025-10-04 17:03:03][engine/mastersrv]: refreshing master server addresses
+[2025-10-04 17:03:03][register]: refreshing ip addresses
+[2025-10-04 17:03:04][engine/mastersrv]: saving addresses
+[2025-10-04 17:03:04][register]: fetching server counts
+[2025-10-04 17:03:07][register]: chose 'master1.teeworlds.com' as master, sending heartbeats
+[2025-10-04 17:03:49][server]: player is ready. ClientID=1 addr=127.0.0.1:51547
+[2025-10-04 17:03:49][server]: player has entered the game. ClientID=1 addr=127.0.0.1:51547
+[2025-10-04 17:03:49][game]: team_join player='1:bar' team=0
+[2025-10-04 17:03:50][server]: client dropped. cid=0 addr=127.0.0.1:53179 reason=''
+[2025-10-04 17:03:50][game]: kill killer='0:0:foo' victim='0:0:foo' weapon=-3 special=0
+[2025-10-04 17:03:50][game]: leave player='0:foo'
+[2025-10-04 17:03:51][server]: client dropped. cid=1 addr=127.0.0.1:51547 reason=''
+[2025-10-04 17:03:51][game]: kill killer='1:0:bar' victim='1:0:bar' weapon=-3 special=0
+[2025-10-04 17:03:51][game]: leave player='1:bar'

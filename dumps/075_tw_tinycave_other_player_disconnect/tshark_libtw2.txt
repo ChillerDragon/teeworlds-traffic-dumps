@@ -1,0 +1,92 @@
+    1   0.000000    127.0.0.1 51547 127.0.0.1    8303 TW7 562 ctrl.token
+    2   0.000024    127.0.0.1 8303 127.0.0.1    51547 TW7 54 ctrl.token
+    3   0.006293    127.0.0.1 51547 127.0.0.1    8303 TW7 562 ctrl.connect
+    4   0.006318    127.0.0.1 8303 127.0.0.1    51547 TW7 50 ctrl.accept_connection
+    5   0.054543    127.0.0.1 51547 127.0.0.1    8303 TW7 77 sys.info
+    6   0.054602    127.0.0.1 8303 127.0.0.1    51547 TW7 103 sys.map_change
+    7   0.068452    127.0.0.1 51547 127.0.0.1    8303 TW7 53 sys.ready
+    8   0.068495    127.0.0.1 8303 127.0.0.1    51547 TW7 64 game.sv_motd, game.sv_server_settings, sys.con_ready
+    9   0.088490    127.0.0.1 51547 127.0.0.1    8303 TW7 125 game.cl_start_info
+   10   0.088525    127.0.0.1 8303 127.0.0.1    51547 TW7 129 game.sv_vote_clear_options, game.sv_tune_params, game.sv_ready_to_enter
+   11   0.088544 192.168.178.78 8303 192.168.178.78 34655 TW7 54 ctrl.token
+   12   0.088564 fe80::9e24:9811:9096:552c 8303 fe80::9e24:9811:9096:552c 42084 TW7 74 ctrl.token
+   13   0.101695    127.0.0.1 51547 127.0.0.1    8303 TW7 53 sys.enter_game
+   14   0.101725    127.0.0.1 8303 127.0.0.1    51547 TW7 93 sys.server_info
+   15   0.101736 192.168.178.78 8303 192.168.178.78 34655 TW7 120 connless.info
+   16   0.259878    127.0.0.1 8303 127.0.0.1    51547 TW7 288 game.sv_game_info, game.sv_client_info, game.sv_client_info, sys.snap_single
+   17   0.459896    127.0.0.1 8303 127.0.0.1    51547 TW7 107 sys.snap_single
+   18   0.660316    127.0.0.1 8303 127.0.0.1    51547 TW7 107 sys.snap_single
+   19   0.695300    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   20   0.700392    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   21   0.740025    127.0.0.1 8303 127.0.0.1    51547 TW7 56 sys.snap_empty
+   22   0.756763    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   23   0.782067    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   24   0.808882    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   25   0.824062    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   26   0.858826    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   27   0.863907    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   28   0.902447    127.0.0.1 8303 127.0.0.1    51547 TW7 56 sys.snap_empty
+   29   0.908923    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   30   0.942599    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   31   0.958988    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   32   0.984314    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   33   1.008970    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   34   1.024145    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   35   1.058940    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   36   1.064013    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   37   1.102523    127.0.0.1 8303 127.0.0.1    51547 TW7 56 sys.snap_empty
+   38   1.109090    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   39   1.142162    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   40   1.159071    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   41   1.184360    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   42   1.209182    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   43   1.224359    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   44   1.258915    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   45   1.263979    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   46   1.304401    127.0.0.1 8303 127.0.0.1    51547 TW7 56 sys.snap_empty
+   47   1.308939    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   48   1.344342    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   49   1.358918    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   50   1.384247    127.0.0.1 8303 127.0.0.1    51547 TW7 95 game.sv_kill_msg, game.sv_client_drop, sys.input_timing, sys.snap_single
+   51   1.400688    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   52   1.420953    127.0.0.1 8303 127.0.0.1    51547 TW7 74 sys.input_timing, sys.snap_single
+   53   1.442197    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   54   1.462466    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   55   1.502910    127.0.0.1 8303 127.0.0.1    51547 TW7 56 sys.snap_empty
+   56   1.509017    127.0.0.1 51547 127.0.0.1    8303 TW7 64 sys.input
+   57   1.544562    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   58   1.559135    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   59   1.584453    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   60   1.609045    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   61   1.624189    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   62   1.658791    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   63   1.663869    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   64   1.704304    127.0.0.1 8303 127.0.0.1    51547 TW7 56 sys.snap_empty
+   65   1.708859    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   66   1.744254    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   67   1.758910    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   68   1.784193    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   69   1.810373    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   70   1.820504    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   71   1.860308    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   72   1.860336    127.0.0.1 8303 127.0.0.1    51547 TW7 56 sys.snap_empty
+   73   1.900822    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   74   1.910193    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   75   1.940543    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   76   1.960443    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   77   1.980711    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   78   2.021140    127.0.0.1 8303 127.0.0.1    51547 TW7 56 sys.snap_empty
+   79   2.026872    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   80   2.062250    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   81   2.076902    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   82   2.102190    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   83   2.127011    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   84   2.142187    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   85   2.176995    127.0.0.1 51547 127.0.0.1    8303 TW7 64 sys.input
+   86   2.182143    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   87   2.222608    127.0.0.1 8303 127.0.0.1    51547 TW7 56 sys.snap_empty
+   88   2.226811    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   89   2.262217    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   90   2.276829    127.0.0.1 51547 127.0.0.1    8303 TW7 63 sys.input
+   91   2.302133    127.0.0.1 8303 127.0.0.1    51547 TW7 63 sys.input_timing, sys.snap_empty
+   92   2.307502    127.0.0.1 51547 127.0.0.1    8303 TW7 50 ctrl.disconnect
