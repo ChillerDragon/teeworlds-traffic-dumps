@@ -1,0 +1,322 @@
+    1   0.000000 65116 8303 TW7 562 ctrl.token
+    2   0.000066 8303 65116 TW7 54 ctrl.token
+    3   0.001561 65116 8303 TW7 562 ctrl.connect
+    4   0.001597 8303 65116 TW7 50 ctrl.accept_connection
+    5   0.035819 65116 8303 TW7 77 sys.info
+    6   0.036048 8303 65116 TW7 99 sys.map_change
+    7   0.042913 65116 8303 TW7 53 sys.ready
+    8   0.043115 8303 65116 TW7 64 game.sv_motd, game.sv_server_settings, sys.con_ready
+    9   0.104678 65116 8303 TW7 134 game.cl_start_info
+   10   0.104745 8303 65116 TW7 129 game.sv_vote_clear_options, game.sv_tune_params, game.sv_ready_to_enter
+   11   0.104800 8303 58533 TW7 54 ctrl.token
+   12   0.104841 8303 41426 TW7 74 ctrl.token
+   13   0.104986 65116 8303 TW7 53 sys.enter_game
+   14   0.105031 8303 65116 TW7 88 sys.server_info
+   15   0.105058 8303 58533 TW7 116 connless.info
+   16   0.135878 8303 65116 TW7 281 game.sv_game_info, game.sv_client_info, sys.snap_single
+   17   0.336607 8303 65116 TW7 169 sys.snap_single
+   18   0.537712 8303 65116 TW7 170 sys.snap_single
+   19   0.549660 65116 8303 TW7 62 sys.input
+   20   0.575609 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   21   0.597899 65116 8303 TW7 61 sys.input
+   22   0.618594 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   23   0.639897 65116 8303 TW7 61 sys.input
+   24   0.655525 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   25   0.681517 65116 8303 TW7 61 sys.input
+   26   0.697185 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   27   0.737025 65116 8303 TW7 62 sys.input
+   28   0.737166 8303 65116 TW7 55 sys.snap_empty
+   29   0.778448 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   30   0.778726 65116 8303 TW7 62 sys.input
+   31   0.814993 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   32   0.820353 65116 8303 TW7 62 sys.input
+   33   0.856492 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   34   0.862008 65116 8303 TW7 62 sys.input
+   35   0.898254 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   36   0.917618 65116 8303 TW7 61 sys.input
+   37   0.938348 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   38   0.959244 65116 8303 TW7 61 sys.input
+   39   0.974921 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   40   1.000911 65116 8303 TW7 61 sys.input
+   41   1.016410 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   42   1.042591 65116 8303 TW7 61 sys.input
+   43   1.058271 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   44   1.077344 65116 8303 TW7 62 sys.input
+   45   1.098152 8303 65116 TW7 68 sys.input_timing, sys.snap_single
+   46   1.139433 8303 65116 TW7 63 sys.snap_single
+   47   1.175591 8303 65116 TW7 63 sys.snap_single
+   48   1.216978 8303 65116 TW7 63 sys.snap_single
+   49   1.258271 8303 65116 TW7 63 sys.snap_single
+   50   1.299457 8303 65116 TW7 63 sys.snap_single
+   51   1.335662 8303 65116 TW7 63 sys.snap_single
+   52   1.377028 8303 65116 TW7 63 sys.snap_single
+   53   1.418200 8303 65116 TW7 63 sys.snap_single
+   54   1.457299 8303 65116 TW7 63 sys.snap_single
+   55   1.498565 8303 65116 TW7 63 sys.snap_single
+   56   1.534640 8303 65116 TW7 63 sys.snap_single
+   57   1.575932 8303 65116 TW7 63 sys.snap_single
+   58   1.617112 8303 65116 TW7 63 sys.snap_single
+   59   1.658316 8303 65116 TW7 63 sys.snap_single
+   60   1.694363 8303 65116 TW7 63 sys.snap_single
+   61   1.735555 8303 65116 TW7 63 sys.snap_single
+   62   1.776816 8303 65116 TW7 63 sys.snap_single
+   63   1.818280 8303 65116 TW7 63 sys.snap_single
+   64   1.859448 8303 65116 TW7 63 sys.snap_single
+   65   1.895469 8303 65116 TW7 63 sys.snap_single
+   66   1.936836 8303 65116 TW7 63 sys.snap_single
+   67   1.978194 8303 65116 TW7 63 sys.snap_single
+   68   2.019364 8303 65116 TW7 63 sys.snap_single
+   69   2.055416 8303 65116 TW7 63 sys.snap_single
+   70   2.084087 65116 8303 TW7 62 sys.input
+   71   2.094580 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   72   2.135912 8303 65116 TW7 55 sys.snap_empty
+   73   2.177477 8303 65116 TW7 55 sys.snap_empty
+   74   2.218891 8303 65116 TW7 55 sys.snap_empty
+   75   2.255015 8303 65116 TW7 55 sys.snap_empty
+   76   2.296345 8303 65116 TW7 55 sys.snap_empty
+   77   2.320171 65116 8303 TW7 75 game.cl_say, sys.input
+   78   2.335833 8303 65116 TW7 81 game.sv_chat, sys.input_timing, sys.snap_single
+   79   2.373452 65116 8303 TW7 61 sys.input
+   80   2.378731 8303 65116 TW7 60 sys.input_timing, sys.snap_empty
+   81   2.414766 8303 65116 TW7 55 sys.snap_empty
+   82   2.431177 65116 8303 TW7 60 sys.input
+   83   2.457123 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   84   2.472779 65116 8303 TW7 60 sys.input
+   85   2.498658 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   86   2.514459 65116 8303 TW7 60 sys.input
+   87   2.535357 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   88   2.570038 65116 8303 TW7 61 sys.input
+   89   2.575356 8303 65116 TW7 60 sys.input_timing, sys.snap_empty
+   90   2.611717 65116 8303 TW7 61 sys.input
+   91   2.617091 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   92   2.653487 65116 8303 TW7 61 sys.input
+   93   2.658811 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   94   2.694978 65116 8303 TW7 61 sys.input
+   95   2.694978 8303 65116 TW7 55 sys.snap_empty
+   96   2.736288 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   97   2.750528 65116 8303 TW7 60 sys.input
+   98   2.776419 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+   99   2.792193 65116 8303 TW7 60 sys.input
+  100   2.818192 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  101   2.833847 65116 8303 TW7 61 sys.input
+  102   2.854716 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  103   2.875515 65116 8303 TW7 61 sys.input
+  104   2.896302 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  105   2.931081 65116 8303 TW7 61 sys.input
+  106   2.936447 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  107   2.972710 65116 8303 TW7 61 sys.input
+  108   2.978130 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  109   3.014416 65116 8303 TW7 61 sys.input
+  110   3.014559 8303 65116 TW7 55 sys.snap_empty
+  111   3.055801 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  112   3.056106 65116 8303 TW7 61 sys.input
+  113   3.097604 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  114   3.111562 65116 8303 TW7 61 sys.input
+  115   3.137662 8303 65116 TW7 77 sys.input_timing, sys.snap_single
+  116   3.153659 65116 8303 TW7 61 sys.input
+  117   3.179541 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  118   3.194830 65116 8303 TW7 62 sys.input
+  119   3.215625 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  120   3.251156 65116 8303 TW7 62 sys.input
+  121   3.256544 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  122   3.293199 65116 8303 TW7 62 sys.input
+  123   3.298520 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  124   3.334569 65116 8303 TW7 62 sys.input
+  125   3.334726 8303 65116 TW7 55 sys.snap_empty
+  126   3.375974 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  127   3.376102 65116 8303 TW7 62 sys.input
+  128   3.417492 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  129   3.418460 65116 8303 TW7 62 sys.input
+  130   3.454886 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  131   3.472724 65116 8303 TW7 62 sys.input
+  132   3.498719 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  133   3.514320 65116 8303 TW7 62 sys.input
+  134   3.535225 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  135   3.556072 65116 8303 TW7 62 sys.input
+  136   3.576936 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  137   3.597706 65116 8303 TW7 62 sys.input
+  138   3.618583 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  139   3.653270 65116 8303 TW7 63 sys.input
+  140   3.658621 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  141   3.674098 65116 8303 TW7 63 sys.input
+  142   3.694767 8303 65116 TW7 76 sys.input_timing, sys.snap_single
+  143   3.715726 65116 8303 TW7 63 sys.input
+  144   3.736499 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  145   3.757423 65116 8303 TW7 64 sys.input
+  146   3.778128 8303 65116 TW7 79 sys.input_timing, sys.snap_single
+  147   3.812873 65116 8303 TW7 65 sys.input
+  148   3.818280 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  149   3.854603 65116 8303 TW7 65 sys.input
+  150   3.854961 8303 65116 TW7 71 sys.snap_single
+  151   3.896264 8303 65116 TW7 77 sys.input_timing, sys.snap_single
+  152   3.896482 65116 8303 TW7 64 sys.input
+  153   3.937746 8303 65116 TW7 76 sys.input_timing, sys.snap_single
+  154   3.938936 65116 8303 TW7 65 sys.input
+  155   3.975373 8303 65116 TW7 74 sys.input_timing, sys.snap_single
+  156   3.993800 65116 8303 TW7 64 sys.input
+  157   4.014646 8303 65116 TW7 77 sys.input_timing, sys.snap_single
+  158   4.035055 65116 8303 TW7 64 sys.input
+  159   4.056000 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  160   4.076701 65116 8303 TW7 64 sys.input
+  161   4.097576 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  162   4.118384 65116 8303 TW7 64 sys.input
+  163   4.139356 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  164   4.153102 65116 8303 TW7 64 sys.input
+  165   4.178992 8303 65116 TW7 81 sys.input_timing, sys.snap_single
+  166   4.194739 65116 8303 TW7 63 sys.input
+  167   4.215391 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  168   4.236407 65116 8303 TW7 64 sys.input
+  169   4.257472 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  170   4.278792 65116 8303 TW7 64 sys.input
+  171   4.294438 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  172   4.320417 65116 8303 TW7 64 sys.input
+  173   4.335966 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  174   4.376706 65116 8303 TW7 64 sys.input
+  175   4.376941 8303 65116 TW7 55 sys.snap_empty
+  176   4.417147 65116 8303 TW7 64 sys.input
+  177   4.417361 8303 65116 TW7 82 sys.input_timing, sys.snap_single
+  178   4.458642 65116 8303 TW7 64 sys.input
+  179   4.458647 8303 65116 TW7 82 sys.input_timing, sys.snap_single
+  180   4.494792 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  181   4.514181 65116 8303 TW7 63 sys.input
+  182   4.535075 8303 65116 TW7 85 sys.input_timing, sys.snap_single
+  183   4.555796 65116 8303 TW7 63 sys.input
+  184   4.576633 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  185   4.597465 65116 8303 TW7 64 sys.input
+  186   4.618296 8303 65116 TW7 80 sys.input_timing, sys.snap_single
+  187   4.639110 65116 8303 TW7 64 sys.input
+  188   4.654860 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  189   4.694732 65116 8303 TW7 65 sys.input
+  190   4.694946 8303 65116 TW7 55 sys.snap_empty
+  191   4.736235 8303 65116 TW7 72 sys.input_timing, sys.snap_single
+  192   4.736331 65116 8303 TW7 65 sys.input
+  193   4.777889 8303 65116 TW7 73 sys.input_timing, sys.snap_single
+  194   4.778006 65116 8303 TW7 64 sys.input
+  195   4.819371 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  196   4.819685 65116 8303 TW7 65 sys.input
+  197   4.855882 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  198   4.875263 65116 8303 TW7 64 sys.input
+  199   4.896149 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  200   4.916878 65116 8303 TW7 64 sys.input
+  201   4.937655 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  202   4.963448 65116 8303 TW7 64 sys.input
+  203   4.979041 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  204   4.979350 65116 8303 TW7 64 sys.input
+  205   5.015400 8303 65116 TW7 90 sys.input_timing, sys.snap_single
+  206   5.021051 65116 8303 TW7 64 sys.input
+  207   5.057238 8303 65116 TW7 89 sys.input_timing, sys.snap_single
+  208   5.076527 65116 8303 TW7 63 sys.input
+  209   5.097323 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  210   5.118225 65116 8303 TW7 63 sys.input
+  211   5.139054 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  212   5.159824 65116 8303 TW7 63 sys.input
+  213   5.175378 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  214   5.215408 65116 8303 TW7 64 sys.input
+  215   5.215601 8303 65116 TW7 55 sys.snap_empty
+  216   5.256975 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  217   5.257084 65116 8303 TW7 64 sys.input
+  218   5.298569 8303 65116 TW7 93 sys.input_timing, sys.snap_single
+  219   5.298703 65116 8303 TW7 64 sys.input
+  220   5.334833 8303 65116 TW7 86 sys.input_timing, sys.snap_single
+  221   5.340357 65116 8303 TW7 64 sys.input
+  222   5.376635 8303 65116 TW7 70 sys.input_timing, sys.snap_single
+  223   5.395924 65116 8303 TW7 64 sys.input
+  224   5.416766 65116 8303 TW7 65 sys.input
+  225   5.416774 8303 65116 TW7 71 sys.input_timing, sys.snap_single
+  226   5.458060 8303 65116 TW7 91 sys.input_timing, sys.snap_single
+  227   5.458380 65116 8303 TW7 64 sys.input
+  228   5.494615 8303 65116 TW7 85 sys.input_timing, sys.snap_single
+  229   5.500101 65116 8303 TW7 64 sys.input
+  230   5.536425 8303 65116 TW7 70 sys.input_timing, sys.snap_single
+  231   5.541719 65116 8303 TW7 64 sys.input
+  232   5.576504 65116 8303 TW7 64 sys.input
+  233   5.576664 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  234   5.617865 8303 65116 TW7 91 sys.input_timing, sys.snap_single
+  235   5.618149 65116 8303 TW7 64 sys.input
+  236   5.654474 8303 65116 TW7 85 sys.input_timing, sys.snap_single
+  237   5.659784 65116 8303 TW7 64 sys.input
+  238   5.695930 8303 65116 TW7 73 sys.input_timing, sys.snap_single
+  239   5.701430 65116 8303 TW7 64 sys.input
+  240   5.736140 65116 8303 TW7 65 sys.input
+  241   5.736348 8303 65116 TW7 70 sys.input_timing, sys.snap_single
+  242   5.777764 8303 65116 TW7 92 sys.input_timing, sys.snap_single
+  243   5.777791 65116 8303 TW7 65 sys.input
+  244   5.819125 8303 65116 TW7 85 sys.input_timing, sys.snap_single
+  245   5.819504 65116 8303 TW7 65 sys.input
+  246   5.855660 8303 65116 TW7 72 sys.input_timing, sys.snap_single
+  247   5.861183 65116 8303 TW7 65 sys.input
+  248   5.881964 65116 8303 TW7 64 sys.input
+  249   5.897650 8303 65116 TW7 97 sys.input_timing, sys.input_timing, sys.snap_single
+  250   5.937547 65116 8303 TW7 64 sys.input
+  251   5.937771 8303 65116 TW7 80 sys.snap_single
+  252   5.979052 65116 8303 TW7 64 sys.input
+  253   5.979108 8303 65116 TW7 70 sys.input_timing, sys.snap_single
+  254   6.015320 8303 65116 TW7 74 sys.input_timing, sys.snap_single
+  255   6.020905 65116 8303 TW7 65 sys.input
+  256   6.057236 8303 65116 TW7 74 sys.input_timing, sys.snap_single
+  257   6.062534 65116 8303 TW7 64 sys.input
+  258   6.098864 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  259   6.118072 65116 8303 TW7 64 sys.input
+  260   6.139000 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  261   6.159654 65116 8303 TW7 64 sys.input
+  262   6.175316 8303 65116 TW7 70 sys.input_timing, sys.snap_single
+  263   6.201428 65116 8303 TW7 64 sys.input
+  264   6.217125 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  265   6.256945 65116 8303 TW7 65 sys.input
+  266   6.257176 8303 65116 TW7 55 sys.snap_empty
+  267   6.298583 65116 8303 TW7 65 sys.input
+  268   6.298648 8303 65116 TW7 70 sys.input_timing, sys.snap_single
+  269   6.334925 8303 65116 TW7 70 sys.input_timing, sys.snap_single
+  270   6.340275 65116 8303 TW7 65 sys.input
+  271   6.376584 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  272   6.381860 65116 8303 TW7 65 sys.input
+  273   6.418006 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  274   6.459340 8303 65116 TW7 55 sys.snap_empty
+  275   6.495580 8303 65116 TW7 55 sys.snap_empty
+  276   6.536911 8303 65116 TW7 66 sys.snap_single
+  277   6.578287 8303 65116 TW7 66 sys.snap_single
+  278   6.614421 8303 65116 TW7 66 sys.snap_single
+  279   6.655956 8303 65116 TW7 66 sys.snap_single
+  280   6.697124 8303 65116 TW7 66 sys.snap_single
+  281   6.738616 8303 65116 TW7 66 sys.snap_single
+  282   6.774736 8303 65116 TW7 67 sys.snap_single
+  283   6.816042 8303 65116 TW7 66 sys.snap_single
+  284   6.857265 8303 65116 TW7 67 sys.snap_single
+  285   6.898494 8303 65116 TW7 67 sys.snap_single
+  286   6.934817 8303 65116 TW7 66 sys.snap_single
+  287   6.976198 8303 65116 TW7 66 sys.snap_single
+  288   7.017533 8303 65116 TW7 67 sys.snap_single
+  289   7.058863 8303 65116 TW7 67 sys.snap_single
+  290   7.095032 8303 65116 TW7 67 sys.snap_single
+  291   7.136311 8303 65116 TW7 67 sys.snap_single
+  292   7.177630 8303 65116 TW7 67 sys.snap_single
+  293   7.218959 8303 65116 TW7 67 sys.snap_single
+  294   7.255162 8303 65116 TW7 67 sys.snap_single
+  295   7.296572 8303 65116 TW7 66 sys.snap_single
+  296   7.337951 8303 65116 TW7 67 sys.snap_single
+  297   7.379315 8303 65116 TW7 67 sys.snap_single
+  298   7.388802 65116 8303 TW7 50 ctrl.keep_alive
+  299   7.402432 65116 8303 TW7 64 sys.input
+  300   7.418143 8303 65116 TW7 61 sys.input_timing, sys.snap_empty
+  301   7.459503 8303 65116 TW7 55 sys.snap_empty
+  302   7.495579 8303 65116 TW7 55 sys.snap_empty
+  303   7.536903 8303 65116 TW7 55 sys.snap_empty
+  304   7.578187 8303 65116 TW7 66 sys.snap_single
+  305   7.614462 8303 65116 TW7 66 sys.snap_single
+  306   7.655805 8303 65116 TW7 66 sys.snap_single
+  307   7.697030 8303 65116 TW7 66 sys.snap_single
+  308   7.738196 8303 65116 TW7 66 sys.snap_single
+  309   7.779458 8303 65116 TW7 66 sys.snap_single
+  310   7.815477 8303 65116 TW7 66 sys.snap_single
+  311   7.856673 8303 65116 TW7 66 sys.snap_single
+  312   7.898015 8303 65116 TW7 66 sys.snap_single
+  313   7.939388 8303 65116 TW7 66 sys.snap_single
+  314   7.975485 8303 65116 TW7 66 sys.snap_single
+  315   8.016773 8303 65116 TW7 74 sys.snap_single
+  316   8.058072 8303 65116 TW7 74 sys.snap_single
+  317   8.099416 8303 65116 TW7 74 sys.snap_single
+  318   8.135538 8303 65116 TW7 74 sys.snap_single
+  319   8.176936 8303 65116 TW7 73 sys.snap_single
+  320   8.218325 8303 65116 TW7 74 sys.snap_single
+  321   8.254428 8303 65116 TW7 74 sys.snap_single
+  322   8.264507 65116 8303 TW7 50 ctrl.disconnect

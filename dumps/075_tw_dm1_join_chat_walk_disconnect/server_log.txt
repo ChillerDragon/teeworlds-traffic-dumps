@@ -1,0 +1,37 @@
+[2025-10-04 10:45:43][engine]: running on unix-linux-amd64
+[2025-10-04 10:45:43][engine]: arch is little endian
+[2025-10-04 10:45:43][storage]: added path '$CURRENTDIR' ('/home/chiller/Downloads/teeworlds-0.7.5-linux_x86_64')
+[2025-10-04 10:45:43][storage]: added path '$DATADIR' ('data')
+[2025-10-04 10:45:43][console]: failed to open 'autoexec.cfg'
+[2025-10-04 10:45:43][server]: starting...
+[2025-10-04 10:45:43][datafile]: loading. filename='maps/dm1.map'
+[2025-10-04 10:45:43][datafile]: allocsize=3884
+[2025-10-04 10:45:43][datafile]: readsize=3484
+[2025-10-04 10:45:43][datafile]: swaplen=3504
+[2025-10-04 10:45:43][datafile]: item_size=3096
+[2025-10-04 10:45:43][datafile]: loading done. datafile='maps/dm1.map'
+[2025-10-04 10:45:43][datafile]: loading data index=14 size=288 uncompressed=1148
+[2025-10-04 10:45:43][datafile]: loading data index=15 size=592 uncompressed=1380
+[2025-10-04 10:45:43][datafile]: loading data index=16 size=238 uncompressed=448
+[2025-10-04 10:45:43][datafile]: loading data index=17 size=303 uncompressed=860
+[2025-10-04 10:45:43][datafile]: loading data index=18 size=517 uncompressed=1828
+[2025-10-04 10:45:43][datafile]: loading data index=19 size=114 uncompressed=224
+[2025-10-04 10:45:43][server]: maps/dm1.map sha256 is 491af17a510214506270904f147a4c30ae0a85b91bb854395bef8c397fc078c3
+[2025-10-04 10:45:43][server]: maps/dm1.map crc is 64548818
+[2025-10-04 10:45:43][server]: server name is 'unnamed server'
+[2025-10-04 10:45:43][server]: version 0.7 802f1be60a05665f
+[2025-10-04 10:45:43][server]: +-------------------------+
+[2025-10-04 10:45:43][server]: | rcon password: 'AFgcMo' |
+[2025-10-04 10:45:43][server]: +-------------------------+
+[2025-10-04 10:45:43][engine/mastersrv]: refreshing master server addresses
+[2025-10-04 10:45:43][register]: refreshing ip addresses
+[2025-10-04 10:45:44][engine/mastersrv]: saving addresses
+[2025-10-04 10:45:44][register]: fetching server counts
+[2025-10-04 10:45:47][register]: chose 'master1.teeworlds.com' as master, sending heartbeats
+[2025-10-04 10:45:52][server]: player is ready. ClientID=0 addr=127.0.0.1:65116
+[2025-10-04 10:45:52][server]: player has entered the game. ClientID=0 addr=127.0.0.1:65116
+[2025-10-04 10:45:52][game]: team_join player='0:nameless tee' team=0
+[2025-10-04 10:45:54][chat]: 1:0:nameless tee: hello
+[2025-10-04 10:46:00][server]: client dropped. cid=0 addr=127.0.0.1:65116 reason=''
+[2025-10-04 10:46:00][game]: kill killer='0:0:nameless tee' victim='0:0:nameless tee' weapon=-3 special=0
+[2025-10-04 10:46:00][game]: leave player='0:nameless tee'
