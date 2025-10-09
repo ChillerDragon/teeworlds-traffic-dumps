@@ -19,6 +19,9 @@ is filtered out. So this pcap is from the client side perspective of the player 
 ![preview 0](./images/0.png)
 ![preview 1](./images/1.png)
 ![preview 2](./images/2.png)
+![preview 3](./images/3.png)
+![preview 4](./images/4.png)
+![preview 5](./images/5.png)
 
 ## Setup
 
@@ -45,22 +48,22 @@ Start the server in one terminal tab. And keep it running.
 Connect client to download the map once. And keep it running.
 
 ```
-./teeworlds "gfx_fullscreen 0;gfx_screen_width 1600;gfx_screen_height 900;cl_auto_demo_record 0;player_name foo;connect 127.0.0.1"
+./teeworlds "gfx_fullscreen 0;gfx_screen_width 1600;gfx_screen_height 900;cl_auto_demo_record 1;player_name foo;connect 127.0.0.1"
 ```
 
 Start the traffic capture in another terminal. Here we capture only the traffic
 of the client port. This port gets randomly assigned so it is different each launch.
-In this run it was XXXXX. This is to get a dump from the perspective of the first client
+In this run it was 61660. This is to get a dump from the perspective of the first client
 and it removes all traffic sent from or to the second client.
 
 ```
-sudo tcpdump -i lo "port 53179" -w 075_tw_tinycave_other_player_join_round_start.pcap
+sudo tcpdump -i lo "port 61660" -w 075_tw_tinycave_other_player_join_round_start.pcap
 ```
 
 Connect the second client.
 
 ```
-./teeworlds "gfx_fullscreen 0;gfx_screen_width 1600;gfx_screen_height 900;cl_auto_demo_record 1;player_name bar;connect 127.0.0.1"
+./teeworlds "gfx_fullscreen 0;gfx_screen_width 1600;gfx_screen_height 900;cl_auto_demo_record 0;player_name bar;connect 127.0.0.1"
 ```
 
 After the client disconnected stop the tcpdump and generate the tshark log.
