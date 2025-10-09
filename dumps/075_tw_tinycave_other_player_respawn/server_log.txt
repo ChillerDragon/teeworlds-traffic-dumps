@@ -1,0 +1,43 @@
+[2025-10-09 15:10:40][engine]: running on unix-linux-amd64
+[2025-10-09 15:10:40][engine]: arch is little endian
+[2025-10-09 15:10:40][storage]: added path '$CURRENTDIR' ('/home/chiller/Downloads/teeworlds-0.7.5-linux_x86_64')
+[2025-10-09 15:10:40][storage]: added path '$DATADIR' ('data')
+[2025-10-09 15:10:40][console]: failed to open 'autoexec.cfg'
+[2025-10-09 15:10:40][server]: starting...
+[2025-10-09 15:10:40][datafile]: loading. filename='maps/tinycave.map'
+[2025-10-09 15:10:40][datafile]: allocsize=1084
+[2025-10-09 15:10:40][datafile]: readsize=852
+[2025-10-09 15:10:40][datafile]: swaplen=872
+[2025-10-09 15:10:40][datafile]: item_size=656
+[2025-10-09 15:10:40][datafile]: loading done. datafile='maps/tinycave.map'
+[2025-10-09 15:10:40][server]: maps/tinycave.map sha256 is b00a78c7d3922092537d165f9897bd40846a46934c209bf6748f718bf30b5fdd
+[2025-10-09 15:10:40][server]: maps/tinycave.map crc is ff4d6acb
+[2025-10-09 15:10:40][server]: server name is 'unnamed server'
+[2025-10-09 15:10:40][datafile]: loading data index=3 size=17 uncompressed=400
+[2025-10-09 15:10:40][datafile]: loading data index=4 size=30 uncompressed=400
+[2025-10-09 15:10:40][datafile]: loading data index=5 size=56 uncompressed=400
+[2025-10-09 15:10:40][server]: version 0.7 802f1be60a05665f
+[2025-10-09 15:10:40][server]: +-------------------------+
+[2025-10-09 15:10:40][server]: | rcon password: 'Wofhc2' |
+[2025-10-09 15:10:40][server]: +-------------------------+
+[2025-10-09 15:10:46][server]: player is ready. ClientID=0 addr=127.0.0.1:62676
+[2025-10-09 15:10:46][server]: player has entered the game. ClientID=0 addr=127.0.0.1:62676
+[2025-10-09 15:10:46][game]: team_join player='0:foo' team=0
+[2025-10-09 15:10:54][server]: player is ready. ClientID=1 addr=127.0.0.1:49552
+[2025-10-09 15:10:54][game]: start match type='DM' teamplay='0'
+[2025-10-09 15:10:54][server]: player has entered the game. ClientID=1 addr=127.0.0.1:49552
+[2025-10-09 15:10:54][game]: team_join player='1:round_start' team=0
+[2025-10-09 15:10:56][server]: client dropped. cid=1 addr=127.0.0.1:49552 reason=''
+[2025-10-09 15:10:56][game]: kill killer='1:0:round_start' victim='1:0:round_start' weapon=-3 special=0
+[2025-10-09 15:10:56][game]: leave player='1:round_start'
+[2025-10-09 15:11:29][server]: player is ready. ClientID=1 addr=127.0.0.1:61749
+[2025-10-09 15:11:29][server]: player has entered the game. ClientID=1 addr=127.0.0.1:61749
+[2025-10-09 15:11:29][game]: team_join player='1:bar' team=0
+[2025-10-09 15:11:32][game]: kill killer='0:0:foo' victim='0:0:foo' weapon=-2 special=0
+[2025-10-09 15:11:35][game]: kill killer='0:0:foo' victim='0:0:foo' weapon=-2 special=0
+[2025-10-09 15:11:40][server]: client dropped. cid=1 addr=127.0.0.1:61749 reason=''
+[2025-10-09 15:11:40][game]: kill killer='1:0:bar' victim='1:0:bar' weapon=-3 special=0
+[2025-10-09 15:11:40][game]: leave player='1:bar'
+[2025-10-09 15:11:45][server]: client dropped. cid=0 addr=127.0.0.1:62676 reason=''
+[2025-10-09 15:11:45][game]: kill killer='0:0:foo' victim='0:0:foo' weapon=-3 special=0
+[2025-10-09 15:11:45][game]: leave player='0:foo'
