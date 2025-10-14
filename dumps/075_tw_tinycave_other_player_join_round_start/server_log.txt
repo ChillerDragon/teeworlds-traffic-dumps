@@ -1,46 +1,46 @@
-[2025-10-09 14:10:16][engine]: running on unix-linux-amd64
-[2025-10-09 14:10:16][engine]: arch is little endian
-[2025-10-09 14:10:16][storage]: added path '$CURRENTDIR' ('/home/chiller/Downloads/teeworlds-0.7.5-linux_x86_64')
-[2025-10-09 14:10:16][storage]: added path '$DATADIR' ('data')
-[2025-10-09 14:10:16][console]: failed to open 'autoexec.cfg'
-[2025-10-09 14:10:16][server]: starting...
-[2025-10-09 14:10:16][datafile]: loading. filename='maps/tinycave.map'
-[2025-10-09 14:10:16][datafile]: allocsize=1084
-[2025-10-09 14:10:16][datafile]: readsize=852
-[2025-10-09 14:10:16][datafile]: swaplen=872
-[2025-10-09 14:10:16][datafile]: item_size=656
-[2025-10-09 14:10:16][datafile]: loading done. datafile='maps/tinycave.map'
-[2025-10-09 14:10:16][server]: maps/tinycave.map sha256 is b00a78c7d3922092537d165f9897bd40846a46934c209bf6748f718bf30b5fdd
-[2025-10-09 14:10:16][server]: maps/tinycave.map crc is ff4d6acb
-[2025-10-09 14:10:16][server]: server name is 'unnamed server'
-[2025-10-09 14:10:16][datafile]: loading data index=3 size=17 uncompressed=400
-[2025-10-09 14:10:16][datafile]: loading data index=4 size=30 uncompressed=400
-[2025-10-09 14:10:16][datafile]: loading data index=5 size=56 uncompressed=400
-[2025-10-09 14:10:16][server]: version 0.7 802f1be60a05665f
-[2025-10-09 14:10:16][server]: +-------------------------+
-[2025-10-09 14:10:16][server]: | rcon password: '4fPThF' |
-[2025-10-09 14:10:16][server]: +-------------------------+
-[2025-10-09 14:10:16][engine/mastersrv]: refreshing master server addresses
-[2025-10-09 14:10:16][register]: refreshing ip addresses
-[2025-10-09 14:10:16][engine/mastersrv]: saving addresses
-[2025-10-09 14:10:16][register]: fetching server counts
-[2025-10-09 14:10:19][register]: chose 'master1.teeworlds.com' as master, sending heartbeats
-[2025-10-09 14:10:24][server]: player is ready. ClientID=0 addr=127.0.0.1:61660
-[2025-10-09 14:10:24][server]: player has entered the game. ClientID=0 addr=127.0.0.1:61660
-[2025-10-09 14:10:24][game]: team_join player='0:foo' team=0
-[2025-10-09 14:11:19][register]: WARNING: Master server is not responding, switching master
-[2025-10-09 14:11:19][engine/mastersrv]: refreshing master server addresses
-[2025-10-09 14:11:19][register]: refreshing ip addresses
-[2025-10-09 14:11:19][engine/mastersrv]: saving addresses
-[2025-10-09 14:11:19][register]: fetching server counts
-[2025-10-09 14:11:20][server]: player is ready. ClientID=1 addr=127.0.0.1:53476
-[2025-10-09 14:11:20][game]: start match type='DM' teamplay='0'
-[2025-10-09 14:11:20][server]: player has entered the game. ClientID=1 addr=127.0.0.1:53476
-[2025-10-09 14:11:20][game]: team_join player='1:bar' team=0
-[2025-10-09 14:11:22][register]: chose 'master1.teeworlds.com' as master, sending heartbeats
-[2025-10-09 14:11:23][server]: client dropped. cid=1 addr=127.0.0.1:53476 reason=''
-[2025-10-09 14:11:23][game]: kill killer='1:0:bar' victim='1:0:bar' weapon=-3 special=0
-[2025-10-09 14:11:23][game]: leave player='1:bar'
-[2025-10-09 14:11:26][server]: client dropped. cid=0 addr=127.0.0.1:61660 reason=''
-[2025-10-09 14:11:26][game]: kill killer='0:0:foo' victim='0:0:foo' weapon=-3 special=0
-[2025-10-09 14:11:26][game]: leave player='0:foo'
+[2025-10-14 14:05:58][engine]: running on unix-linux-amd64
+[2025-10-14 14:05:58][engine]: arch is little endian
+[2025-10-14 14:05:58][storage]: added path '$CURRENTDIR' ('/home/chiller/Downloads/teeworlds-0.7.5-linux_x86_64')
+[2025-10-14 14:05:58][storage]: added path '$DATADIR' ('data')
+[2025-10-14 14:05:58][console]: failed to open 'autoexec.cfg'
+[2025-10-14 14:05:58][server]: starting...
+[2025-10-14 14:05:58][datafile]: loading. filename='maps/tinycave.map'
+[2025-10-14 14:05:58][datafile]: allocsize=1084
+[2025-10-14 14:05:58][datafile]: readsize=852
+[2025-10-14 14:05:58][datafile]: swaplen=872
+[2025-10-14 14:05:58][datafile]: item_size=656
+[2025-10-14 14:05:58][datafile]: loading done. datafile='maps/tinycave.map'
+[2025-10-14 14:05:58][server]: maps/tinycave.map sha256 is b00a78c7d3922092537d165f9897bd40846a46934c209bf6748f718bf30b5fdd
+[2025-10-14 14:05:58][server]: maps/tinycave.map crc is ff4d6acb
+[2025-10-14 14:05:58][server]: server name is 'unnamed server'
+[2025-10-14 14:05:58][datafile]: loading data index=3 size=17 uncompressed=400
+[2025-10-14 14:05:58][datafile]: loading data index=4 size=30 uncompressed=400
+[2025-10-14 14:05:58][datafile]: loading data index=5 size=56 uncompressed=400
+[2025-10-14 14:05:58][server]: version 0.7 802f1be60a05665f
+[2025-10-14 14:05:58][server]: +-------------------------+
+[2025-10-14 14:05:58][server]: | rcon password: 'pLekS5' |
+[2025-10-14 14:05:58][server]: +-------------------------+
+[2025-10-14 14:05:58][engine/mastersrv]: refreshing master server addresses
+[2025-10-14 14:05:58][register]: refreshing ip addresses
+[2025-10-14 14:05:58][engine/mastersrv]: saving addresses
+[2025-10-14 14:05:58][register]: fetching server counts
+[2025-10-14 14:06:01][register]: chose 'master1.teeworlds.com' as master, sending heartbeats
+[2025-10-14 14:06:13][server]: player is ready. ClientID=0 addr=127.0.0.1:54278
+[2025-10-14 14:06:13][server]: player has entered the game. ClientID=0 addr=127.0.0.1:54278
+[2025-10-14 14:06:13][game]: team_join player='0:map_download' team=0
+[2025-10-14 14:06:15][server]: client dropped. cid=0 addr=127.0.0.1:54278 reason=''
+[2025-10-14 14:06:15][game]: kill killer='0:0:map_download' victim='0:0:map_download' weapon=-3 special=0
+[2025-10-14 14:06:15][game]: leave player='0:map_download'
+[2025-10-14 14:06:33][server]: player is ready. ClientID=0 addr=127.0.0.1:52878
+[2025-10-14 14:06:33][server]: player has entered the game. ClientID=0 addr=127.0.0.1:52878
+[2025-10-14 14:06:33][game]: team_join player='0:foo' team=0
+[2025-10-14 14:06:39][server]: player is ready. ClientID=1 addr=127.0.0.1:62544
+[2025-10-14 14:06:39][game]: start match type='DM' teamplay='0'
+[2025-10-14 14:06:39][server]: player has entered the game. ClientID=1 addr=127.0.0.1:62544
+[2025-10-14 14:06:39][game]: team_join player='1:bar' team=0
+[2025-10-14 14:06:40][server]: client dropped. cid=1 addr=127.0.0.1:62544 reason=''
+[2025-10-14 14:06:40][game]: kill killer='1:0:bar' victim='1:0:bar' weapon=-3 special=0
+[2025-10-14 14:06:40][game]: leave player='1:bar'
+[2025-10-14 14:06:41][server]: client dropped. cid=0 addr=127.0.0.1:52878 reason=''
+[2025-10-14 14:06:41][game]: kill killer='0:0:foo' victim='0:0:foo' weapon=-3 special=0
+[2025-10-14 14:06:41][game]: leave player='0:foo'

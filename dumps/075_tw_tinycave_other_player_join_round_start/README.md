@@ -8,7 +8,7 @@ using the official teeworlds release for server and client.
 - **map**: tinycave crc=ff4d6acb sha256=b00a78c7d3922092537d165f9897bd40846a46934c209bf6748f718bf30b5fdd
 - **version**: 0.7.5 (0.7 802f1be60a05665f)
 
-The pcap captured the player called "foo" already being connected.
+The pcap captured the player called "foo" joining the server.
 Not moving just standing still. The server was just launched.
 Then player "bar" joins the game triggering a round start.
 Both players are interpreted as ready and the server ends the warmup phase.
@@ -45,19 +45,23 @@ Start the server in one terminal tab. And keep it running.
 ./teeworlds_srv "sv_map tinycave" > server_log.txt
 ```
 
-Connect client to download the map once. And keep it running.
+Connect client to download the map once, then quit it.
+
+```
+./teeworlds "gfx_fullscreen 0;gfx_screen_width 1600;gfx_screen_height 900;cl_auto_demo_record 0;player_name map_download;connect 127.0.0.1"
+```
+
+Start the traffic capture in another terminal. Here we first capture all traffic
+of both clients. Later we filter out the traffic of the other client.
+
+```
+sudo tcpdump -i lo "port 8303" -w server_side.pcap
+```
+
+Connect client again and leave it running. It will be the main client.
 
 ```
 ./teeworlds "gfx_fullscreen 0;gfx_screen_width 1600;gfx_screen_height 900;cl_auto_demo_record 1;player_name foo;connect 127.0.0.1"
-```
-
-Start the traffic capture in another terminal. Here we capture only the traffic
-of the client port. This port gets randomly assigned so it is different each launch.
-In this run it was 61660. This is to get a dump from the perspective of the first client
-and it removes all traffic sent from or to the second client.
-
-```
-sudo tcpdump -i lo "port 61660" -w 075_tw_tinycave_other_player_join_round_start.pcap
 ```
 
 Connect the second client.
@@ -66,7 +70,14 @@ Connect the second client.
 ./teeworlds "gfx_fullscreen 0;gfx_screen_width 1600;gfx_screen_height 900;cl_auto_demo_record 0;player_name bar;connect 127.0.0.1"
 ```
 
-After the client disconnected stop the tcpdump and generate the tshark log.
+After the client disconnected stop the tcpdump and filter the pcap.
+
+```
+first_client_port="$(tshark -r server_side.pcap | awk '{ print $4 }' | grep -v '^8303$' | head -n1)"
+tshark -r server_side.pcap -Y "udp.port == ${first_client_port}" -w 075_tw_tinycave_other_player_join_round_start.pcap
+```
+
+Then generate the tshark preview log.
 
 ```
 tshark -r 075_tw_tinycave_other_player_join_round_start.pcap > tshark_libtw2.txt
