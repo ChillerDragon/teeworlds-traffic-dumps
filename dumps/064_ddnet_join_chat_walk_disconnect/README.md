@@ -1,7 +1,7 @@
 # 075_tw_dm1_join_chat_walk_disconnect
 
 This pcap was generated on my local machine (linux debian 13)
-using the official teeworlds release for server and client.
+using the official ddnet release for server and client.
 
 - **client**: [official ddnet 19.4 release for linux](https://ddnet.org/downloads/DDNet-19.4-linux_x86_64.tar.xz)
 - **server**: [official ddnet 19.4 release for linux](https://ddnet.org/downloads/DDNet-19.4-linux_x86_64.tar.xz)
