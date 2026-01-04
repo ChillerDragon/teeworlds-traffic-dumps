@@ -1,0 +1,143 @@
+    1   0.000000 11200 8303 TW7 562 ctrl.token
+    2   0.000124 8303 11200 TW7 54 ctrl.token
+    3   0.000695 11200 8303 TW7 562 ctrl.connect
+    4   0.000799 8303 11200 TW7 54 ctrl.accept_connection
+    5   0.017024 11200 8303 TW7 170 sys.8c001304-8461-3e47-8787-f672b3835bd4, sys.info
+    6   0.017072 8303 11200 TW7 214 sys.12810e1f-a1db-3378-b4fb-164ed6505926, sys.f621a5a1-f585-3775-8e73-41beee79f2b2, sys.f9117b3c-8039-3416-9fc0-aef2bcb75c03, sys.map_change
+    7   0.025402 11200 8303 TW7 53 sys.ready
+    8   0.025492 8303 11200 TW7 160 game.sv_motd, game.sv_server_settings, sys.con_ready
+    9   0.072528 11200 8303 TW7 125 game.cl_start_info
+   10   0.072663 8303 11200 TW7 162 game.sv_vote_clear_options, game.sv_tune_params, game.sv_ready_to_enter
+   11   0.072838 11200 8303 TW7 68 sys.rcon_cmd, sys.enter_game
+   12   0.072921 8303 11200 TW7 122 sys.server_info
+   13   0.073035 8303 11200 TW7 1432 game.sv_game_info, game.sv_command_info_remove, game.sv_chat, game.sv_chat, game.9e220138-d393-3cb0-90f1-e587c00ab1d0, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info
+   14   0.073063 8303 11200 TW7 1398 game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info
+   15   0.073087 8303 11200 TW7 1431 game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info
+   16   0.073144 8303 11200 TW7 1289 game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info
+   17   0.073168 8303 11200 TW7 1356 game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info
+   18   0.073190 8303 11200 TW7 1436 game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info
+   19   0.116303 8303 11200 TW7 1170 game.sv_command_info, game.sv_command_info, game.sv_command_info, game.sv_command_info, game.054125d8-0062-3891-840b-47462285a01f, game.sv_chat, game.a091961a-95e8-3744-bb60-5eac9bd563c6, game.804f149f-9b53-3b0a-897f-59663a1c4eb9, game.sv_chat, game.sv_client_info, game.969d127c-b768-390d-8879-6104993769fa, game.sv_vote_option_list_add, game.sv_tune_params, game.sv_vote_option_list_add, game.sv_vote_option_list_add, sys.snap_single
+   20   0.316159 8303 11200 TW7 569 game.sv_vote_option_list_add, game.sv_vote_option_list_add, game.sv_vote_option_list_add, game.4f096765-39b1-3766-82dc-61b20ccf589a, sys.snap_single
+   21   0.323640 11200 8303 TW7 157 game.7f264cdd-71a2-3962-bbce-0f94bbd81913, game.e19b66e8-0646-351b-aa03-d4aba7b9545f, game.53bb28af-4252-3ac9-8fd3-6ccbc2a603e3, game.8c470228-ee11-3808-93b9-c5c87d08b51c, sys.input
+   22   0.356201 8303 11200 TW7 91 sys.input_timing, sys.snap_single
+   23   0.381628 11200 8303 TW7 59 sys.input
+   24   0.396098 8303 11200 TW7 83 game.804f149f-9b53-3b0a-897f-59663a1c4eb9, sys.input_timing, sys.snap_empty
+   25   0.436122 8303 11200 TW7 55 sys.snap_empty
+   26   0.440121 11200 8303 TW7 59 sys.input
+   27   0.476158 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   28   0.481593 11200 8303 TW7 60 sys.input
+   29   0.516294 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   30   0.539999 11200 8303 TW7 59 sys.input
+   31   0.556057 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   32   0.573302 11200 8303 TW7 84 sys.bcb43bf5-427c-36d8-b5b8-7975c8c06aa1
+   33   0.573416 8303 11200 TW7 84 sys.d8295530-14a7-3a0a-b02e-b2cee08d2033
+   34   0.591570 11200 8303 TW7 59 sys.input
+   35   0.596185 8303 11200 TW7 60 sys.input_timing, sys.snap_empty
+   36   0.631609 11200 8303 TW7 60 sys.input
+   37   0.636189 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   38   0.673396 11200 8303 TW7 60 sys.input
+   39   0.676314 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   40   0.715000 11200 8303 TW7 60 sys.input
+   41   0.716159 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   42   0.756168 8303 11200 TW7 55 sys.snap_empty
+   43   0.773332 11200 8303 TW7 60 sys.input
+   44   0.796185 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   45   0.814982 11200 8303 TW7 60 sys.input
+   46   0.836293 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   47   0.856653 11200 8303 TW7 60 sys.input
+   48   0.876183 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   49   0.915001 11200 8303 TW7 60 sys.input
+   50   0.916124 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   51   0.956129 8303 11200 TW7 55 sys.snap_empty
+   52   0.956696 11200 8303 TW7 60 sys.input
+   53   0.996055 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   54   1.014832 11200 8303 TW7 60 sys.input
+   55   1.036068 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   56   1.056539 11200 8303 TW7 60 sys.input
+   57   1.076175 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   58   1.114895 11200 8303 TW7 60 sys.input
+   59   1.116063 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   60   1.156126 8303 11200 TW7 55 sys.snap_empty
+   61   1.156651 11200 8303 TW7 60 sys.input
+   62   1.196098 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   63   1.214910 11200 8303 TW7 60 sys.input
+   64   1.236063 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   65   1.256502 11200 8303 TW7 60 sys.input
+   66   1.276726 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   67   1.314912 11200 8303 TW7 60 sys.input
+   68   1.316523 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   69   1.356143 8303 11200 TW7 55 sys.snap_empty
+   70   1.356653 11200 8303 TW7 60 sys.input
+   71   1.396078 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   72   1.414851 11200 8303 TW7 60 sys.input
+   73   1.436119 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   74   1.456544 11200 8303 TW7 60 sys.input
+   75   1.476188 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   76   1.498208 11200 8303 TW7 60 sys.input
+   77   1.516043 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   78   1.556267 8303 11200 TW7 55 sys.snap_empty
+   79   1.556590 11200 8303 TW7 60 sys.input
+   80   1.596099 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   81   1.598307 11200 8303 TW7 60 sys.input
+   82   1.636057 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   83   1.656554 11200 8303 TW7 60 sys.input
+   84   1.676064 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   85   1.698187 11200 8303 TW7 60 sys.input
+   86   1.716092 8303 11200 TW7 208 game.sv_client_info, sys.input_timing, sys.snap_single
+   87   1.756216 8303 11200 TW7 110 sys.snap_single
+   88   1.756689 11200 8303 TW7 60 sys.input
+   89   1.796120 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   90   1.798643 11200 8303 TW7 60 sys.input
+   91   1.836132 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   92   1.856520 11200 8303 TW7 60 sys.input
+   93   1.876314 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   94   1.898336 11200 8303 TW7 60 sys.input
+   95   1.916176 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   96   1.956289 8303 11200 TW7 82 sys.snap_single
+   97   1.956831 11200 8303 TW7 60 sys.input
+   98   1.996342 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+   99   1.998473 11200 8303 TW7 60 sys.input
+  100   2.036077 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  101   2.056496 11200 8303 TW7 59 sys.input
+  102   2.076250 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  103   2.098400 11200 8303 TW7 60 sys.input
+  104   2.116476 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  105   2.139994 11200 8303 TW7 60 sys.input
+  106   2.156201 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  107   2.196095 8303 11200 TW7 55 sys.snap_empty
+  108   2.198579 11200 8303 TW7 60 sys.input
+  109   2.236208 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  110   2.240021 11200 8303 TW7 60 sys.input
+  111   2.276108 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  112   2.298180 11200 8303 TW7 99 game.cl_say, sys.input
+  113   2.316283 8303 11200 TW7 263 game.sv_kill_msg, game.sv_client_drop, game.sv_chat, sys.input_timing, sys.snap_single
+  114   2.339909 11200 8303 TW7 60 sys.input
+  115   2.356157 8303 11200 TW7 76 sys.input_timing, sys.snap_single
+  116   2.396201 8303 11200 TW7 71 sys.snap_single
+  117   2.398326 11200 8303 TW7 60 sys.input
+  118   2.436202 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  119   2.440327 11200 8303 TW7 59 sys.input
+  120   2.476177 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  121   2.498312 11200 8303 TW7 60 sys.input
+  122   2.516205 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  123   2.540006 11200 8303 TW7 60 sys.input
+  124   2.556187 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  125   2.596201 8303 11200 TW7 55 sys.snap_empty
+  126   2.598592 11200 8303 TW7 60 sys.input
+  127   2.636200 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  128   2.640310 11200 8303 TW7 60 sys.input
+  129   2.676202 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  130   2.698273 11200 8303 TW7 60 sys.input
+  131   2.716215 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  132   2.740030 11200 8303 TW7 60 sys.input
+  133   2.756193 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  134   2.796195 8303 11200 TW7 55 sys.snap_empty
+  135   2.798603 11200 8303 TW7 60 sys.input
+  136   2.836206 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  137   2.840255 11200 8303 TW7 60 sys.input
+  138   2.876193 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  139   2.898331 11200 8303 TW7 60 sys.input
+  140   2.916207 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  141   2.940000 11200 8303 TW7 60 sys.input
+  142   2.956196 8303 11200 TW7 61 sys.input_timing, sys.snap_empty
+  143   2.986769 11200 8303 TW7 50 ctrl.disconnect
